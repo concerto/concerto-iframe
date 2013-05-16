@@ -1,0 +1,15 @@
+<fieldset>
+  <legend><span><%= Iframe::DISPLAY_NAME %></span></legend>
+<div class="row-fluid">
+  <%= form.fields_for :config do |config| %>
+  <div>
+      <div class="clearfix">
+        <%= config.label :url, 'Url' %>
+        <div class="input">
+          <%= config.text_field :url %>
+        </div>
+      </div>
+  </div>
+  <% end %>
+</div>  
+</fieldset>
