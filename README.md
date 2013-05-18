@@ -1,7 +1,7 @@
 # Concerto 2 iframe Plugin
 This plugin provides support to render a custom iframe, in Concerto 2.
 
-1.  Add to your Gemfile: ```gem 'concerto_iframe'```
+1.  Add to your Gemfile: ```gem 'concerto_iframe', :git => 'git://github.com/mfrederickson/concerto-iframe.git'```  (just until it moves to a production location)
 2.  ```bundle install```
 3.  ```rails generate concerto_iframe:install install```
 4.  Because the install in step three includes a file that needs to be minified with all the others into the frontend.js file, we need to compile it with the closure compiler.  This is accomplished in steps 5-8.
