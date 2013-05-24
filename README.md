@@ -10,4 +10,7 @@ This plugin provides support to render a custom iframe, in Concerto 2.
 7.  Get the closure compiler from [here](http://closure-compiler.googlecode.com/files/compiler-latest.zip) and put the compiler.jar file in the public/frontend_js directory.
 8.  Compile the new frontend.js file, go into public/frontend_js and type ```./compile.sh```
 
+UPDATE: 24 MAY 2013
+Steps 5-7 can be replaced, if you got concerto from github since the 24th, by running git submodule init and git submodule update from the concerto directory.
+
 Concerto 2 iframe is licensed under the Apache License, Version 2.0.
