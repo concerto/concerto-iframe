@@ -48,8 +48,8 @@ class Iframe < Content
   end
 
   def url_must_exist
-    if config['url'].empty?
-      errors.add(:url, 'Url must be specified')
+    if config['url'].empty? || (config['url'] =~ /[a-z]+\:\/\/.+/).nil?
+      errors.add(:url, 'an absolute Url must be specified')
     end
   end
 
