@@ -7,8 +7,8 @@ require "concerto_iframe/version"
 Gem::Specification.new do |s|
   s.name        = "concerto_iframe"
   s.version     = ConcertoIframe::VERSION
-  s.authors     = ["Brian Michalski"]
-  s.email       = ["bmichalski@gmail.com"]
+  s.authors     = ["Marvin Frederickson"]
+  s.email       = ["marvin.frederickson@gmail.com"]
   s.homepage    = "https://github.com/concerto/concerto-iframe"
   s.summary     = "custom iframe support for Concerto 2"
   s.description = "Adds support for custom iframes, in Concerto 2"
