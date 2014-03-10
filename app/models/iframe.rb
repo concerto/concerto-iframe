@@ -56,4 +56,10 @@ class Iframe < Content
   def render_details
     {:path => self.config['url']}
   end
+
+  def self.preview(data)
+    "<iframe style='width: 90%; height: 100%; border: none;' 
+      id='iframe-div' src=" + data[:iframe_url] + "></iframe>"
+  end
+
 end
