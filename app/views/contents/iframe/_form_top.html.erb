@@ -1,3 +1,4 @@
+<%= javascript_include_tag "concerto_iframe/application.js" %>
 <fieldset>
   <legend><span><%= Iframe::DISPLAY_NAME %></span></legend>
 <div class="row-fluid">
@@ -6,7 +7,7 @@
       <div class="clearfix">
         <%= config.label :url, 'Url' %>
         <div class="input">
-          <%= config.text_field :url, :placeholder => "http://www.concerto-signage.org", :class => "input-xxlarge" %>
+          <%= config.text_field :url, :placeholder => "http://www.concerto-signage.org", "data-url" => preview_contents_path , :class => "input-xxlarge" %>
         </div>
       </div>
   </div>
