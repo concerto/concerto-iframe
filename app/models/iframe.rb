@@ -1,6 +1,4 @@
 class Iframe < Content
-  DISPLAY_NAME = "IFrame"
-
   after_initialize :set_kind, :create_config, :load_info
 
   after_find :load_config
