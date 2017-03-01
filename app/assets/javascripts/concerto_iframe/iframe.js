@@ -23,9 +23,9 @@ var ConcertoIframe = {
 
   initHandlers: function () {
     if (ConcertoIframe._initialized) {
-      console.debug('already initialized iframe handlers');
+      // console.debug('already initialized iframe handlers');
     } else {
-      console.debug('initializing Iframe Handlers');
+      // console.debug('initializing Iframe Handlers');
       $('input#iframe_config_url').on('blur', ConcertoIframe.previewIframe);
       $('input#iframe_config_url').on('change', ConcertoIframe.previewIframe);
       ConcertoIframe.resizePreview();
