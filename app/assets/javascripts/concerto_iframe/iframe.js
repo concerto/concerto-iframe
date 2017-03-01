@@ -24,5 +24,4 @@ function initializeIframeHandlers() {
   resizePreview();
 }
 
-$(document).ready(initializeIframeHandlers);
-$(document).on('page:change', initializeIframeHandlers);
+$(document).on('turbolinks:load', initializeIframeHandlers);
